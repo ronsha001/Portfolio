@@ -1,0 +1,20 @@
+.burger {
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: rgb(196, 253, 255);
+  transition: 0.2s ease-in-out;
+  height: 35px;
+  min-width: 65px;
+}
+.burger:hover {
+  background-color: rgb(129, 250, 254);
+}
+.burger img{ 
+  width: 10px;
+  transition: 0.2s ease-in;
+}
+.burger.active img {
+  transform: rotate(90deg);
+}

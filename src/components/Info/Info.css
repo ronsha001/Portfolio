@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Fredoka:wght@300&family=Montserrat:wght@200;400&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;400&display=swap');
+.info-container {
+  height: fit-content;
+  width: 100vw;
+  padding: 50px 0 0 0;
+  background-color: rgb(76, 100, 130);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image-container *{
+  margin: 20px;
+}
+.image-container .image img {
+  height: 250px;
+  border-radius: 50%;
+}
+.image-container .links {
+  height: fit-content;
+  width: fit-content;
+}
+.image-container .links .link {
+  border: 2px solid #f8f9fa;
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin: 9px;
+}
+.image-container .links .link i{
+  color: #f8f9fa;
+  transition: 0.2s ease-in-out;
+}
+.image-container .links .link:hover,
+.image-container .links .link:hover i {
+  color: #353535;
+  border-color: #353535;
+}
+
+.info-container h1{
+  color: #f8f9fa;
+  font-size: 85px;
+  padding: 0;
+  margin: 0;
+}
+
+.divider-line {
+  display: flex;
+  flex-direction: row;
+  
+}
+.divider-line span {
+  color: #f8f9fa;
+  font-size: 45px;
+  margin: 0 35px;
+}
+.divider-line .divider { 
+  transform: scaleX(3.5);
+}
+
+.info-container p {
+  font-size: 22px;
+  color: #f8f9fa;
+}
+
+@media screen and (max-width: 600px) {
+  .image-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-container .image-container .links {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .info-container h1{ 
+    font-size: 45px;
+  }
+  .divider-line span {
+    margin: 0 15px;
+  }
+  .divider-line .divider { 
+    transform: scaleX(1.5);
+  }
+  .info-container p {
+    padding: 0 15px;
+    text-align: center;
+  }
+  .image-container .links .link{
+    margin-top: 0;
+  }
+}
