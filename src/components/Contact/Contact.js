@@ -8,7 +8,7 @@ const Contact = ({ref}) => {
         <div className="contact-wrapper">
 
           <div className="text-center">
-            <h1>ABOUT</h1>
+            <h1>CONTACT</h1>
           </div>
 
           <div className="divider-line">
