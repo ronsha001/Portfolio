@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Fredoka:wght@300&family=Montserrat:wght@200;400&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;400&display=swap');
+.contact-container{
+  width: 100%;
+  height: fit-content;
+  padding: 96px 0;
+  background-color: #f8f9fa;
+  font-family: Montserrat;
+
+}
+.contact-container .contact-wrapper{
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}
+.contact-wrapper .text-center {
+  text-align: center;
+  color: #022a41;
+  font-weight: bold;
+}
+.contact-wrapper .text-center h1 {
+  font-size: 45px;
+  margin: 0;
+}
+.contact-wrapper .divider-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-wrapper .contact-section {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px 0;
+}
+.contact-section .contact {
+  width: 20%;
+  margin: 0 25px;
+  color: #022a41;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section .contact.whatsapp svg {
+  font-size: 90px;
+  color: #25D366 
+}
+.contact-section .contact.email svg {
+  font-size: 90px;
+  color: #c71610 
+}
+.contact-section .contact a{
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-wrapper .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-section .contact {
+    width: 80%;
+    margin: 0;
+  }
+}
