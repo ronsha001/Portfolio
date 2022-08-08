@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Fredoka:wght@300&family=Montserrat:wght@200;400&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;400&display=swap');
+.about-container{
+  width: 100%;
+  height: fit-content;
+  padding: 96px 0;
+  background-color: #4c6482;
+  font-family: Montserrat;
+
+}
+.about-container .about-wrapper{
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}
+.about-wrapper .text-center {
+  text-align: center;
+  color: #f8f9fa;
+  font-weight: bold;
+  font-size: 45px;
+}
+.about-wrapper .text-center h1 {
+  margin: 0;
+}
+.about-wrapper .divider-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-wrapper .divider-line span {
+  color: #f8f9fa;
+}
+
+.about-wrapper .text-container {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text-container .text {
+  width: 25%;
+  margin: 0 25px 25px 25px;
+  color: #f8f9fa;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 900px) {
+  .about-wrapper .text-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-container .text {
+    width: 80%;
+    margin: 0;
+  }
+}

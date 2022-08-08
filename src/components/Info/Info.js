@@ -6,14 +6,14 @@ const Info = () => {
     <div className="info-container">
       <div className="image-container">
         <div className="image">
-          <img src={myImg} alt="My Image" />
+          <img src={myImg} alt="Me" />
         </div>
         <div className="links">
           <div className="link">
-            <a href="https://www.linkedin.com/in/ron-sharabi/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/ron-sharabi/" target="_blank" rel="noreferrer" ><i className="fa-brands fa-linkedin"></i></a>
           </div>
           <div className="link">
-            <a href="https://github.com/ronsha001" target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://github.com/ronsha001" target="_blank" rel="noreferrer" ><i className="fa-brands fa-github"></i></a>
           </div>
         </div>
       </div>
