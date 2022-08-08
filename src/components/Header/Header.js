@@ -2,10 +2,10 @@ import React from 'react'
 import Info from '../Info/Info'
 import Navbar from '../Navbar/Navbar'
 
-const Header = () => {
+const Header = ({myRefs}) => {
   return (
     <header>
-      <Navbar />
+      <Navbar/>
       <Info />
     </header>
   )

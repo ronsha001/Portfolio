@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='Footer'>
       <div className="footer-container">
         <div className="text">
           <small>Copyright © Ron Sharabi 2021 Israel</small>

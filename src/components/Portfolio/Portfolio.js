@@ -20,10 +20,10 @@ import bg2 from '../../images/bg2.png';
 
 import Card from './Card/Card';
 
-const Portfolio = ({sectionRef}) => {
+const Portfolio = () => {
 
   return (
-    <section className='portfolio-container' ref={sectionRef}>
+    <section id='Portfolio' className='portfolio-container'>
       <h1>PORTFOLIO</h1>
       <div className="divider-line">
           <span>
