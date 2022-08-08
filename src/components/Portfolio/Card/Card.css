@@ -34,6 +34,7 @@
 }
 .card-wrapper .card i {
   font-size: 35px;
+  color: aqua;
 }
 .card-wrapper .card:hover {
   opacity: 1;
