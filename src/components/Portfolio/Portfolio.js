@@ -65,7 +65,7 @@ const Portfolio = () => {
           image={getAgent} 
           title={"GetAgent - PHP"} 
           desc={`During my degree studies, I was required to make a final project for the degree, so I decided to make a real estate agents website called "GetAgent". this website was built by me and meant to help real estate agents to publish their names and their assets in the market. I developed the front and the backend using HTML, CSS, JS, PHP and MySql.`}
-          link={"http://getagent.infinityfreeapp.com/index.php"}
+          link={"https://getagent.000webhostapp.com/"}
           image1={ga1}
           image2={ga2}
           git={"https://github.com/ronsha001/GetAgent-FinalProject"}
