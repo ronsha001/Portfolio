@@ -4,6 +4,7 @@ import myBestMemories from '../../images/mybestmemories.png';
 import nodeTravelApp from '../../images/nodeTravelAppMVC.png';
 import getAgent from '../../images/getAgent.png';
 import brainGym from '../../images/brainGym.png';
+import DevTube from '../../images/DevTube.png';
 
 import mbm1 from '../../images/mbm1.png';
 import mbm2 from '../../images/mbm2.png';
@@ -17,6 +18,8 @@ import ga2 from '../../images/ga2.png';
 import bg1 from '../../images/bg1.png';
 import bg2 from '../../images/bg2.png';
 
+import dt1 from '../../images/dt1.png';
+import dt2 from '../../images/dt2.png';
 
 import Card from './Card/Card';
 
@@ -80,7 +83,16 @@ const Portfolio = () => {
           image2={bg2}
           git={"https://github.com/ronsha001/BrainGYM"}
         />
-        
+        <Card 
+          image={DevTube} 
+          title={"DevTube - React & Node(Rest API)"}
+          secondaryTitle={"MERN Stack with REST API"}
+          link={"https://devtube-net.netlify.app/"}
+          desc={`DevTube is a website similar to YouTube, I developed this website in order to improve my skills and abilities.`}
+          image1={dt1}
+          image2={dt2}
+          git={"https://github.com/ronsha001/DevTube"}
+        />
       </div>
     </section>
   )

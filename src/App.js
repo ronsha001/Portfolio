@@ -9,8 +9,6 @@ function App() {
       const li = document.querySelectorAll('.nav-li')
       const sec = document.querySelectorAll('section')
 
-      console.log(window.scrollY, sec[1].offsetTop + window.innerHeight - 100)
-      // console.log(window.screenY >= sec[2].offsetTop)
       
       const len = sec.length
       if (window.scrollY >= sec[1].offsetTop + window.innerHeight - 250) {
