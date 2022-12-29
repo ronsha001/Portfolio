@@ -57,7 +57,7 @@ const Portfolio = () => {
           image={nodeTravelApp} 
           title={"Travel App - Node(MVC)"} 
           secondaryTitle={"Node.js + EJS"}
-          link={"https://travel-node-app.herokuapp.com/"}
+          link={"https://travel-app-prod-api-4yx087.mo6.mogenius.io/"}
           desc={`Model View Controller architecture with csrf session protection + Auth + Authrorization +
             Error Handling + Validation + AWS S3 Bucket + Stripe payment + Cloudinary images media and etc..`}
           image1={nta1}
@@ -77,7 +77,7 @@ const Portfolio = () => {
           image={brainGym} 
           title={"BrainGym - React"}
           secondaryTitle={"React.js (without backend)"}
-          link={"https://brain--gym.herokuapp.com/"}
+          link={"https://rs-brain-gym.netlify.app/"}
           desc={`Front-end React.js project that I wrote to improve my skills and just for fun and practice. However, in my eyes, the idea of this project is brilliant.`}
           image1={bg1}
           image2={bg2}
