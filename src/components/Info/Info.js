@@ -30,7 +30,11 @@ const Info = () => {
             <i className="fa-solid fa-grip-lines divider"></i>
             </span>
         </div>
-        <p>Hi, my name is Ron a Full Stack Web developer.</p>
+        <p>
+          <center>Adept in DevOps Engineering and Web Development.</center><br></br>
+          In this portfolio you can find all of my personal web development projects.
+        </p>
+        
       </div>
     </main>
   )

@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container-title-burger">
           <a href='#Header'>
             <i className="fa-solid fa-angle-left"></i>
-            RS Web Dev
+            RS Portfolio
             <i className="fa-solid fa-angle-right"></i>
           </a>
           <BurgerButton isActive={isActive} setIsActive={setIsActive} />
